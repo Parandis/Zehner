@@ -1,0 +1,39 @@
+footer{
+    background: $colour-secondary;
+    color:$colour-primary;
+    padding:2% 5%;
+    .copy-right{
+        width:100%;
+        display:flex;
+        font-size:14px;
+        a{
+            text-decoration: underline;
+            margin-left:3%;
+        }
+    }
+    .footer-nav{
+        display: flex;
+        justify-content: space-between;
+        .form-block{
+            input{
+                width:50%;
+                padding:1%;
+                background: $colour-secondary;
+                border:none;
+                border-bottom:1px solid $colour-primary;
+                color:$colour-primary;
+            }
+            .footer-social{ 
+                margin-top:5%;
+                a:not(:first-child){margin-left:5%;}
+                .fab{font-size:30px;}
+            }
+        }
+        li{
+            list-style: none;
+            a{
+                font-size:14px;
+            }
+        }
+    }
+}

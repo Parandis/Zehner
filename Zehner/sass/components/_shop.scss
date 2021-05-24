@@ -1,0 +1,20 @@
+.shop-row{
+    .row{
+        display:flex;
+        justify-content: space-between;
+        width:100%;
+        margin-top:1%;
+        margin-bottom:1%;
+        .shop-card{
+            background: $card-color;
+            width:49.5%;
+            padding:3%;
+            display: flex;
+            flex-direction: column;
+            img{
+                width:60%;
+                margin-left:auto;
+            }
+        }
+    }
+}

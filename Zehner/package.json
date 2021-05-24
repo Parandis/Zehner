@@ -1,0 +1,11 @@
+{
+  "name": "zehner",
+  "version": "1.0.0",
+  "description": "zehner-test",
+  "main": "script.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style compressed"
+  },
+  "author": "Parandis Saheli",
+  "license": "ISC"
+}

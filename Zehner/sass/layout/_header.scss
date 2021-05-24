@@ -1,0 +1,108 @@
+.header {
+    background: $colour-primary;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%; 
+    .nav-bar{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content:center;
+        padding-top:1%;
+        padding-bottom:1%;
+        width:100%;
+        a{
+            text-decoration: none;
+            color:$colour-secondary;
+        }
+        .nav-side{
+            display:flex;
+            justify-content: space-around;
+            width:50rem;}
+        .logo {
+            width: 15rem;
+            margin-left:3rem;
+            margin-right:3rem;
+        }
+    }
+    .noti-bar{
+        background: $colour-secondary;
+        color:$colour-primary;
+        width:100%;
+        text-align: center;
+        font-size:15px;
+        line-height:24px;
+        padding-top:8px;
+        padding-bottom:8px;
+    }  
+
+    .searchOverlay{
+        display:none;
+        background: $colour-primary;
+        width: 100%;
+        position: absolute;
+        padding:1% 5%;
+        input{
+            width:90%;
+            border:none;
+            border-bottom:1px solid $colour-secondary;
+        }
+        .close{
+            color:$colour-secondary;
+        }
+    }
+    .shopSubMenu{
+        display: none;
+        position:absolute;
+        top:20%;
+        background: $colour-primary;
+        padding:5%;
+        width:100%;
+        .promotion{
+           div{ text-align:center;}
+        }
+        .submenu-container{
+            display:flex;
+            ul{
+                width:30%;
+                hr{
+                    width:150px;
+                }
+                li{
+                    list-style: none;
+                    margin:3% auto !important;
+                    .fas{display:none;}
+                    a{
+                        display:flex;
+                        align-items: center;
+                        &:hover{
+                        color:$hover-color;
+                        .fas{
+                            display:block;
+                            margin-left:5%;
+                        }
+                    }
+                }
+                }
+            }
+        }
+
+    }
+    .location{
+        display:none;
+        position:absolute;
+        background: $colour-primary;
+        padding:1.5%;
+        top: 22%;
+        left: 55%;
+        li{
+            list-style: none;
+            a{
+                text-decoration:none;
+                color:$colour-secondary;
+            }
+        }
+    }
+
+}

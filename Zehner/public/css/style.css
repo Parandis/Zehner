@@ -1,0 +1,328 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background: #fff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  font-size: 2rem;
+  font-weight: 100;
+  line-height: 1.7;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+textarea {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2.75rem;
+}
+
+.btn {
+  background: #000;
+  color: #fff;
+  border-radius: 5px;
+  padding: 2% 10%;
+  line-height: 22px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.testimonial-row {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.testimonial-row .slideshow-container {
+  position: relative;
+}
+.testimonial-row .slideshow-container .mySlides {
+  display: none;
+  padding: 5% 10%;
+  text-align: center;
+}
+.testimonial-row .slideshow-container .prev, .testimonial-row .slideshow-container .next {
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  font-size: 4rem;
+}
+.testimonial-row .slideshow-container .next {
+  right: 0;
+}
+.testimonial-row .slideshow-container .author {
+  font-weight: bold;
+}
+
+.awards {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.awards img {
+  filter: grayscale(1);
+}
+
+.shop-row .row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.shop-row .row .shop-card {
+  background: #F2F2F2;
+  width: 49.5%;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+}
+.shop-row .row .shop-card img {
+  width: 60%;
+  margin-left: auto;
+}
+
+.header {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.header .nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 100%;
+}
+.header .nav-bar a {
+  text-decoration: none;
+  color: #000;
+}
+.header .nav-bar .nav-side {
+  display: flex;
+  justify-content: space-around;
+  width: 50rem;
+}
+.header .nav-bar .logo {
+  width: 15rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.header .noti-bar {
+  background: #000;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  line-height: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.header .searchOverlay {
+  display: none;
+  background: #fff;
+  width: 100%;
+  position: absolute;
+  padding: 1% 5%;
+}
+.header .searchOverlay input {
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+.header .searchOverlay .close {
+  color: #000;
+}
+.header .shopSubMenu {
+  display: none;
+  position: absolute;
+  top: 20%;
+  background: #fff;
+  padding: 5%;
+  width: 100%;
+}
+.header .shopSubMenu .promotion div {
+  text-align: center;
+}
+.header .shopSubMenu .submenu-container {
+  display: flex;
+}
+.header .shopSubMenu .submenu-container ul {
+  width: 30%;
+}
+.header .shopSubMenu .submenu-container ul hr {
+  width: 150px;
+}
+.header .shopSubMenu .submenu-container ul li {
+  list-style: none;
+  margin: 3% auto !important;
+}
+.header .shopSubMenu .submenu-container ul li .fas {
+  display: none;
+}
+.header .shopSubMenu .submenu-container ul li a {
+  display: flex;
+  align-items: center;
+}
+.header .shopSubMenu .submenu-container ul li a:hover {
+  color: #17A7E0;
+}
+.header .shopSubMenu .submenu-container ul li a:hover .fas {
+  display: block;
+  margin-left: 5%;
+}
+.header .location {
+  display: none;
+  position: absolute;
+  background: #fff;
+  padding: 1.5%;
+  top: 22%;
+  left: 55%;
+}
+.header .location li {
+  list-style: none;
+}
+.header .location li a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  padding: 2% 5%;
+}
+footer .copy-right {
+  width: 100%;
+  display: flex;
+  font-size: 14px;
+}
+footer .copy-right a {
+  text-decoration: underline;
+  margin-left: 3%;
+}
+footer .footer-nav {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-nav .form-block input {
+  width: 50%;
+  padding: 1%;
+  background: #000;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+footer .footer-nav .form-block .footer-social {
+  margin-top: 5%;
+}
+footer .footer-nav .form-block .footer-social a:not(:first-child) {
+  margin-left: 5%;
+}
+footer .footer-nav .form-block .footer-social .fab {
+  font-size: 30px;
+}
+footer .footer-nav li {
+  list-style: none;
+}
+footer .footer-nav li a {
+  font-size: 14px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.grey-bg {
+  background: #E9E9E9;
+}
+.grey-bg .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 5% !important;
+}
+.grey-bg .content div {
+  width: 40%;
+}
+.grey-bg .content .text-column {
+  text-align: right;
+}
+.grey-bg .content .text-column p {
+  margin-bottom: 5%;
+}
+
+.show {
+  display: block !important;
+}
+
+.info-row {
+  padding: 3% 5%;
+}
+.info-row .row {
+  display: flex;
+  justify-content: space-between;
+}
+.info-row .row .column {
+  text-align: center;
+  padding: 1% 6%;
+}
+.info-row .row .column img {
+  width: 80px;
+  height: 80px;
+}
+
+.playards .left-img {
+  width: 35%;
+}
+.playards .right-img {
+  width: 63%;
+}
+.playards .bg-img {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.playards .text-box {
+  background: #fff;
+  text-align: center;
+  border-radius: 10px;
+  width: 30%;
+  padding: 5%;
+  margin-left: 15%;
+  margin-top: -30%;
+  margin-bottom: 20%;
+  position: relative;
+}
+.playards .text-box p:nth-child(2) {
+  margin-bottom: 5%;
+}
+
+/*# sourceMappingURL=style.css.map */
